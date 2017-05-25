@@ -1,0 +1,38 @@
+/* 
+* @Author: anchen
+* @Date:   2017-03-29 10:11:39
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-03-29 11:22:29
+*/
+.contactus-box{
+    width: 620px;
+}
+.ouroffice-box{
+    width:340px;
+    float:right;
+}
+.contactus-box .content{
+    padding:2rem;
+}
+.contact-txt {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #d2d2d2;
+}
+.contact-txt .detail{
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+.contact-form form>*{
+    display: block;
+    margin:1rem 0;
+}
+.contact-form form input,
+.contact-form form textarea{
+    background:#dedede;
+    outline: none;
+    border:1px solid #afafaf;
+}
+textarea{
+    resize:none;
+    width: 38em;
+}

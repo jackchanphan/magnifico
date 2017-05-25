@@ -1,0 +1,37 @@
+.pic-sponsors{
+    width:290px;
+    height:290px;
+    margin:2rem auto;
+    background:url(../../img/about/pic-sponsors1.png) center center no-repeat;
+    background-size: cover;
+}
+.pic-sponsortop1{
+    background-image: url(../../img/about/pic-sponsorstop1.png);
+}
+.pic-sponsortop2{
+    background-image: url(../../img/about/pic-sponsorstop2.png);
+}
+.pic-sponsortop3{
+    background-image: url(../../img/about/pic-sponsorstop3.png);
+}
+.pic-blog1{
+    background-image: url(../../img/blog/pic-blog1.png);
+}
+.pic-blog2{
+    background-image: url(../../img/blog/pic-blog2.png);
+}
+.pic-blog3{
+    background-image: url(../../img/blog/pic-blog3.png);
+}
+.pic-blog4{
+    background-image: url(../../img/blog/pic-blog4.png);
+}
+.pic-blog5{
+    background-image: url(../../img/blog/pic-blog5.png);
+}
+.pic-banner-blog{
+    width: 724px;
+    height:82px;
+    margin-top: 1.5rem;
+    background-image: url(../../img/blog/pic-blog-banner.png);
+}

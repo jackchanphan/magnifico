@@ -1,0 +1,47 @@
+/* 
+* @Author: anchen
+* @Date:   2017-03-28 10:10:29
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-03-31 15:52:17
+*/
+.pic-banner1{
+    background-size: cover;
+    background-image: url(../../img/home/home-banner1.png);
+}
+.pic-banner2{
+    background-size: cover;
+    background-image: url(../../img/home/home-banner2.jpg);
+}
+.pic-banner3{
+    background-size: cover;
+    background-image: url(../../img/home/home-banner3.jpg);
+}
+.pic-featuredwork{
+    width: 218px;
+    height:131px;
+    background:url(../../img/home/pic-featuredwork.png) center center no-repeat;
+}
+.icon-followus1{
+    background-image: url(../../img/home/icon-followus1.png);
+}
+.icon-followus2{
+    background-image: url(../../img/home/icon-followus2.png);
+}
+.icon-followus3{
+    background-image: url(../../img/home/icon-followus3.png);
+}
+.icon-followus4{
+    background-image: url(../../img/home/icon-followus4.png);
+}
+.icon-followus5{
+    background-image: url(../../img/home/icon-followus5.png);
+}
+.icon-followus6{
+    background-image: url(../../img/home/icon-followus6.png);
+}
+.icon-followus7{
+    background-image: url(../../img/home/icon-followus7.png);
+}
+.icon-followus8{
+    background-image: url(../../img/home/icon-followus8.png);
+}

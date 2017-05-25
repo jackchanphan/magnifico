@@ -1,0 +1,107 @@
+/* 
+* @Author: anchen
+* @Date:   2017-03-28 10:10:29
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-03-31 15:52:25
+*/
+.logo{
+    -webkit-animation:scrollLogo 2s;
+            animation:scrollLogo 2s;
+}
+@-webkit-keyframes scrollLogo {
+    0%{-webkit-transform:rotateY(270deg) translateY(50px) translateZ(100px) ;transform:rotateY(270deg) translateY(50px) translateZ(100px) ;color: #fff }
+    100%{-webkit-transform:rotateY(360deg) translateY(0) translateZ(0) ;transform:rotateY(360deg) translateY(0) translateZ(0) ;color:#292929;}
+}
+@keyframes scrollLogo {
+    0%{-webkit-transform:rotateY(270deg) translateY(50px) translateZ(100px) ;transform:rotateY(270deg) translateY(50px) translateZ(100px) ;color: #fff }
+    100%{-webkit-transform:rotateY(360deg) translateY(0) translateZ(0) ;transform:rotateY(360deg) translateY(0) translateZ(0) ;color:#292929;}
+}
+.banner .wrap{
+    outline: 1px solid #bdbdbd;
+}
+.banner .left{
+    width: 65%;
+    float:left;
+    position: relative;
+}
+.banner .right{
+    width: 35%;
+    float:right;
+}
+.pics li{
+    width: 100%;
+    height:336px;
+    position:absolute;
+}
+.btns li{
+    width: 100%;
+    height:112px;
+}
+.btns .content:before{
+    content:"";
+    display: block;
+    height:2em;
+    width: 0;
+}
+.btns .content{
+    height:100%;
+    width: 86%;
+    margin:0 auto;
+    border-bottom: 1px solid #b0b0b0;
+}
+.btns .content h2{
+    margin:0 0 .5rem 0;
+}
+.btns .content *{
+    color:#B0B0B0;
+    font-size:13px;
+}
+.btns .current{
+    cursor: pointer;
+    background: -webkit-linear-gradient(top,#fff,#d5d5d5);
+    background: linear-gradient(180deg,#fff,#d5d5d5);
+    position:relative;
+}
+.btns .current:after{
+    content:"";
+    border-right: 15px solid #eaeaea;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    position:absolute;
+    left:-15px;
+    top:50%;
+    margin-top: -15px;
+}
+.btns .current *{
+    -webkit-transition:all 1s;
+    transition:all 1s;
+    border-bottom: 0;
+    color:#292929 !important;
+}
+.row1 .magbox{
+    height:177px;
+}
+.flwus-box{
+    margin-left: 2rem;
+    width: 218px;
+}
+.followus-list li{
+    width: 30px;
+    height:31px;
+    margin:1rem;
+}
+.aboutus-box{
+    width: 494px;
+    margin-left: 2rem;
+}
+.aboutus-box p{
+    padding: 2rem;
+    font-size: 12px;
+    line-height: 1.75rem;
+}
+.aboutus-box p a{
+    color:#292929;
+    font-weight: bold;
+    padding-bottom: .25em;
+    border-bottom: 1px solid #292929;
+}

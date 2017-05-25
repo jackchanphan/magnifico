@@ -1,0 +1,67 @@
+/* 
+* @Author: anchen
+* @Date:   2017-03-28 17:41:34
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-03-31 15:52:46
+*/
+.portfolio-main .magbox{
+    width:100%;
+}
+.portfolio-main .magbox .content{
+    padding:0 1rem;
+}
+.portfolio-main .magbox li{
+    padding:1rem;
+}
+.work-itm-list:not(:first-child){
+    display: none;
+}
+.work-itm .left>div{
+    width: 199px;
+    height:155px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.work-itm *{
+    color: #232323;
+}
+.portfolio-main .magbox li:not(:last-child){
+    border-bottom: 1px solid #b0b0b0;
+}
+.work-itm .middle{
+    margin-left: 2rem;
+    width: 500px;
+    line-height: 2em;
+}
+.work-itm .right{
+    margin-left: 4em;
+}
+.work-itm .right>p{
+    margin:1rem 0;
+}
+.work-itm .right>p:hover{
+    cursor: pointer;
+    -webkit-transform:scale(1.2);
+            transform:scale(1.2);
+}
+.design-concept-checked:before,
+.design-markup-checked:before,
+.design-branding-checked:before{
+    content: "";
+    display: inline-block;
+    background: url(../../img/portfolio/icon-checked.png) center center no-repeat;
+    width: 19px;
+    height:19px;
+}
+.design-concept-checked:after{
+    content: "DESIGN CONCEPT";
+    display: inline;
+}
+.design-markup-checked:after{
+    content: "HTML/CSS MARKUP";
+    display: inline;
+}
+.design-branding-checked:after{
+    content: "BRANDING";
+    display: inline;
+}

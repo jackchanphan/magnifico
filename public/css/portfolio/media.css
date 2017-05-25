@@ -1,0 +1,15 @@
+/* 
+* @Author: anchen
+* @Date:   2017-03-28 17:41:34
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-03-28 18:02:55
+*/
+.pic-work1{
+    background-image:url(../../img/portfolio/pic-work-item1.png);
+}.pic-work2{
+    background-image:url(../../img/portfolio/pic-work-item2.png);
+}.pic-work3{
+    background-image:url(../../img/portfolio/pic-work-item3.png);
+}.pic-work4{
+    background-image:url(../../img/portfolio/pic-work-item4.png);
+}
