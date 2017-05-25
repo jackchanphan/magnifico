@@ -1,0 +1,2 @@
+# magnifico
+a magnifico project
